@@ -3,7 +3,6 @@ title = 'SmolTech LLC'
 languageCode = "de"
 defaultContentLanguage = "de"
 paginate = "7"
-theme = "spectral"
 
 [params]
 fancytitle = '<img height="128" src="https://agent.kyptronix.in/logo.png"/><br />SmolTech LLC'
