@@ -1,0 +1,278 @@
+baseURL = ""
+title = 'SmolTech LLC'
+languageCode = "de"
+defaultContentLanguage = "de"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancytitle = '<img height="128" src="https://agent.kyptronix.in/logo.png"/><br />SmolTech LLC'
+copyright = "Design & Developed By"
+startbuttonLink = "#contact"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[languages.en]
+weight = 10
+languageName = "English"
+description = 'Ninepins and Bowling aid <br/>for disabled people'
+startbuttonText = "Ask a question/Buy"
+
+[languages.de]
+weight = 0
+languageName = "Deutsch"
+description = 'Located at WorcShop, in Rochdale, Massachusetts.11 Hankey St Rochdale, MA 01542'
+startbuttonText = "Contact Now"
+
+# menu
+
+## german
+
+[[languages.de.params.menu.main]]
+url = ''
+title = "Home"
+
+#[[languages.de.params.menu.main]]
+#url = '/posts/'
+#title = "Aktuelles"
+
+[[languages.de.params.menu.main]]
+url = ''
+title = "About"
+
+[[languages.de.params.menu.main]]
+url = ''
+title = "Services"
+
+## english
+
+
+[[languages.de.params.menu.main]]
+url = ''
+title = "Contact Us"
+
+
+
+
+[[languages.en.params.menu.main]]
+url = ''
+title = "Home"
+
+#[[languages.en.params.menu.main]]
+#url = ''
+#title = "Posts"
+
+[[languages.en.params.menu.main]]
+url = '/en/pricing/'
+title = "Pricing"
+
+[[languages.en.params.menu.main]]
+url = ''
+title = "Gallery"
+
+[[languages.en.params.menu.main]]
+url = '/en/press/'
+title = "Press commentaries"
+
+[[languages.en.params.menu.main]]
+url = 'https://schliesspendel.de'
+title = "Schließpendel"
+
+[[languages.en.params.menu.main]]
+url = '/imprint/'
+title = "Imprint and Privacy"
+
+[[languages.en.params.menu.main]]
+url = '/de/'
+title = "Deutsch"
+
+
+# first section
+## german
+
+[languages.de.one]
+enable = true
+title = 'DVD/BLURAY RIPPING - COMMUNITY CLOUD - CONTENT PRODUCTION'
+body = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis laoreet arcu ut tempus. Nam at augue ut tortor lobortis aliquet at vel urna. Nullam tristique, neque quis convallis faucibus, tellus massa efficitur erat, sed interdum nisi risus et magna. Aenean a mi vel ipsum facilisis fringilla. Fusce placerat fermentum tempor. '
+
+[[languages.de.one.icon]]
+icon = "fa-wheelchair-alt"
+style = "1"
+label = "für Rollstuhlfahrer"
+
+[[languages.de.one.icon]]
+icon = "fa-clock-o"
+style = "2"
+label = "kurze Zeit"
+
+[[languages.de.one.icon]]
+icon = "fa-wrench"
+style = "3"
+label = "ohne Werkzeug"
+
+## english
+
+[languages.en.one]
+enable = true
+title = 'Kegelschiene – small in size, big advantage'
+body = 'Kegelschiene is portable, so you can take it to your favourite place for playing bowling and ninepins, and set the 5 parts up there in no time and without tools. <br />With only 3 kilogram in weight, everyone can use it.'
+
+[[languages.en.one.icon]]
+icon = "fa-wheelchair-alt"
+style = "1"
+label = "for wheelchair users"
+
+[[languages.en.one.icon]]
+icon = "fa-clock-o"
+style = "2"
+label = "fast setup"
+
+[[languages.en.one.icon]]
+icon = "fa-wrench"
+style = "3"
+label = "no tools"
+
+# second section
+## german
+
+[languages.de.two]
+enable = true
+
+[[languages.de.two.section]]
+img = "https://agent.kyptronix.in/dvd2.png"
+title = 'DVD/Bluray Ripping'
+body = 'Learn about the benefits of hosting your own movie collection <br> 1. Convenience: Having your own movie collection means you can access your favorite movies whenever you want, without having to rely on a streaming service or a physical DVD rental. You can organize your collection in a way that suits your preferences and easily find the movies you want to watch. <br> 2. Cost-effectiveness: Building your own movie collection can be cost-effective in the long run, especially if you are a frequent movie watcher. Instead of paying for monthly streaming subscriptions or renting DVDs every time you want to watch a movie, you can invest in building your own collection and enjoy your favorite movies without any additional costs. <br> 3. Control: With your own movie collection, you have full control over what movies you want to watch, when you want to watch them, and how often you want to watch them. You dont have to worry about the availability of a certain movie on a streaming platform or the expiration date of a rental DVD.<br>4. Quality: By hosting your own movie collection, you can ensure that the movies you watch are of high quality, both in terms of picture and sound. You can choose to buy DVDs or Blu-rays with superior audio and video quality or download high-quality digital copies of your favorite movies.<br>5. Nostalgia: Building your own movie collection can be a great way to relive your favorite movie memories from the past. You can collect movies that have sentimental value to you or that you watched during a certain time in your life, and revisit them whenever you want to take a trip down memory lane. <br> 6.Sharing: Make your collection available to friends and family, and possibly gain access to theirs as well.'
+
+[[languages.de.two.section]]
+img = "https://agent.kyptronix.in/cloud.png"
+title = 'Community Cloud'
+body = 'A community cloud is a type of cloud computing infrastructure that is shared by a group of organizations with similar interests or requirements. Unlike public clouds, community clouds are designed to serve the needs of a specific community of users, such as government agencies, academic institutions, or healthcare providers. Here are some of the benefits of a community cloud:<br>1. Cost-effectiveness: By sharing the costs of infrastructure and maintenance among multiple organizations, community clouds can be more cost-effective than building and maintaining private clouds. This can be especially beneficial for smaller organizations that might not have the resources to invest in their own cloud infrastructure.<br>2. Customization: Because a community cloud is designed to serve the needs of a specific community of users, it can be customized to meet the unique requirements of that community. This can include features such as specialized security and compliance measures or customized software applications. <br> 3.Collaboration: A community cloud can facilitate collaboration and information sharing among members of the community. For example, academic institutions can use a community cloud to share research data and collaborate on joint research projects.<br>4. Security: A community cloud can be more secure than a public cloud because access is restricted to members of the community. This can be especially important for organizations that deal with sensitive data, such as healthcare providers or government agencies.<br> 5.Scalability: A community cloud can be scaled up or down to meet the changing needs of the community. This can be especially beneficial for organizations that experience seasonal fluctuations in demand for computing resources.'
+
+[[languages.de.two.section]]
+img = "https://static.wixstatic.com/media/b8227b_5af8403b60c84fadb998cae3ee2ee5a1~mv2.png/v1/fill/w_398,h_398,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/smm.png"
+title = 'Content Production'
+body = 'Learn to use Open Source video and audio production software like Open Broadcast Studio (OBS).<br>Producing content with open source tools can offer a range of benefits, including:<br>1. Cost savings: Open source tools are generally free to use, which can result in significant cost savings for individuals and organizations. This means that anyone, regardless of their budget, can access high-quality content creation tools.<br>2. Flexibility: Open source tools offer users a high degree of flexibility in terms of customization and modification. This means that users can tailor the tools to their specific needs, rather than being limited by the features provided by proprietary software.<br>3. Collaboration: Open source tools often come with built-in collaboration features, allowing users to work together on content creation projects in real-time. This can be particularly useful for distributed teams or for individuals who work remotely.<br> 4. Security: Open source tools are often more secure than their proprietary counterparts, as the code is publicly available for review and can be audited for potential security vulnerabilities. Additionally, open source tools are typically updated more frequently than proprietary software, meaning that security issues can be addressed more quickly.<br>5. Community: Open source tools are supported by a vibrant community of developers and users who are committed to improving the tools and making them accessible to everyone. This community can provide valuable resources, including tutorials, forums, and documentation, making it easier for users to learn how to use the tools effectively.'
+
+[[languages.de.two.section]]
+
+## english
+
+[languages.en.two]
+enable = true
+
+[[languages.en.two.section]]
+img = "images/start/ganz.jpg"
+title = 'Easy to use'
+body = 'Kegelschiene is foolproof to use: <br />Just put on the shoulder support, put the ball in the deepening and you can start with a lot of momentum!'
+
+[[languages.en.two.section]]
+img = "images/start/zerlegt.jpg"
+title = 'modular system'
+body = 'Kegelschiene consists of 5 parts, which can be connected by plugging into each other without using tools.'
+
+[[languages.en.two.section]]
+img = "images/start/sport.jpg"
+title = 'use in leisure or integration'
+body = 'Kegelschiene can also be used for other activities. Whether it’s leisure games such as bowling pool (picture), or inclusion in school sports: there are no limits to creativity.'
+
+[[languages.en.two.section]]
+img = "images/start/start-ab.jpg"
+title = 'Start Ab system'
+body = 'With our Start Ab system people with severe impairment of their hand movement are also able to use Kegelschiene to play ninepins or go bowling. You can find a demonstration of the Start Ab system in <a href="https://www.youtube.com/watch?v=v9Uf89DnLCw">this video</a>.'
+
+# third section
+
+## german
+
+[languages.de.three]
+enable = true
+title = 'Data Recovery & Custom Engineering'
+body = 'Lorem dolor sit amet, consectetur adipiscing elit. Nunc lobortis laoreet arcu ut tempus. Nam at augue ut tortor lobortis aliquet at vel urna. Nullam tristique, neque quis convallis faucibus, tellus massa efficitur erat, sed interdum nisi risus et magna. Aenean a mi vel ipsum facilisis fringilla. Fusce placerat fermentum tempor. '
+
+[[languages.de.three.feature]]
+icon = "fa-calendar-check-o"
+title = "Data Recovery"
+body = 'Data recovery is the process of retrieving data that has been lost or corrupted due to a variety of reasons such as hardware failure, software malfunction, human error, or a malicious attack. Open source tools can be an effective and affordable option for data recovery, as they offer a range of features and functionality for retrieving lost or damaged data.<br>When dealing with lost data, it is important to understand the implications of your choices in order to avoid turning a temporary problem into a permanent one.<br>Leverage our past experience for your current emergency.'
+
+[[languages.de.three.feature]]
+icon = "fa-soccer-ball-o"
+title = "Custom Engineering"
+body = 'I solve complex problems with Open Source software.<br>Let’s talk about how I can help you.  There’s no charge for a conversation.'
+
+
+
+[languages.en.three]
+enable = true
+title = 'Allrounder Kegelschiene'
+body = 'Regardless of whether you can bowl without help or are dependent on others: <br />Kegelschiene is certainly the right thing for you.'
+
+[[languages.en.three.feature]]
+icon = "fa-calendar-check-o"
+title = "For all ages"
+body = 'Children can make the most of Kegelschiene thanks to its compact dimensions (80 cm × 20 cm × 30 cm) and the padded and adjustable shoulder rests.<br />It is equally well suited for elderly people with limited mobility.'
+
+[[languages.en.three.feature]]
+icon = "fa-soccer-ball-o"
+title = "Don’t want to bowl?"
+body = 'You can also spice up other sports with Kegelschiene. Have you ever played magnificated pool with gymnastic and medicine balls? No? Then visit our <a href="https://gallery.kegelschiene.net/sports/">Kegelschienensport Gallery</a>'
+
+[[languages.en.three.feature]]
+icon = "fa-plane"
+title = "Travelling a lot?"
+body = "That is no problem. <br />With us you can also order a handy Kegelschiene bag."
+
+[[languages.en.three.feature]]
+icon = "fa-industry"
+title = "Do you operate bowling alleys?"
+body = "Are you a restaurateur and run a bowling alley? Or do you own a bowling center? Kegelschiene is certainly an enrichment for your offer!"
+
+# buy or die
+
+## german
+
+
+[[languages.de.cta.link]]
+href = "https://gallery.kegelschiene.net/"
+text = "Bildergalerie"
+special = false
+
+## english
+
+[languages.en.cta]
+enable = true
+title = "Wanna play ninepins?"
+body = "Here you can buy Kegelschiene or – to find out more – have a look at some pictures in our gallery."
+
+[[languages.en.cta.link]]
+href = "#contact"
+text = "Buy"
+special = true
+
+[[languages.en.cta.link]]
+href = "https://gallery.kegelschiene.net/"
+text = "Gallery"
+special = false
+
+[languages.de.contact]
+enable = true
+title = "Contact Form"
+phone = "+49 (0) 9848 744"
+email = "info@kegelschiene.net"
+body = 'Located at WorcShop, in Rochdale, Massachusetts<br>11 Hankey St<br>Rochdale, MA 01542'
+address = "Ingolf Banecke-Jakobshagen<br />Wallmersbach 107<br />97215 Uffenheim"
+subject = "Neue Anfrage von kegelschiene.net"
+formspree_form_id = "mjvzpzyw"
+
+[languages.en.contact]
+enable = true
+title = "Contact and Orders"
+phone = "+49 (0) 9848 744"
+email = "info@kegelschiene.net"
+body = 'Contact us for questions and orders. <a href="/pricing/">You cand find out more about the <strong>pricing</strong> here</a>. Please remember to mention your address and payment details in your order.'
+address = "Ingolf Banecke-Jakobshagen<br />Wallmersbach 107<br />97215 Uffenheim<br />GERMANY"
+subject = "Neue Anfrage von kegelschiene.net"
+formspree_form_id = "mjvzpzyw"
+
+[params.social]
+instagram = "kegelschiene"
